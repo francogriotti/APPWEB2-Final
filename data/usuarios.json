@@ -1,0 +1,162 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre": "Franco",
+    "apellido": "Griotti",
+    "direccion": "Almirante Brown 767, Córdoba, Argentina",
+    "email": "franco.griotti@hotmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 2,
+    "nombre": "Madelaine",
+    "apellido": "Pelliza",
+    "direccion": "Almirante Brown 767, Córdoba, Argentina",
+    "email": "madee_1994@hotmail.com",
+    "contraseña": "password456"
+  },
+  {
+    "id_usuario": 3,
+    "nombre": "Susana",
+    "apellido": "Griotti",
+    "direccion": "Baradero 1825, Córdoba, Argentina",
+    "email": "sugriotti@hotmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 4,
+    "nombre": "Nahuel",
+    "apellido": "Tejeda Griotti",
+    "direccion": "Baradero 1825, Córdoba, Argentina",
+    "email": "natejeda@hotmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 5,
+    "nombre": "Vanesa",
+    "apellido": "Duran",
+    "direccion": "Luis Vernet 2147, Córdoba, Argentina",
+    "email": "vgduran@live.com",
+    "contraseña": "contraseña987"
+  },
+  {
+    "id_usuario": 6,
+    "nombre": "Silvia",
+    "apellido": "Centioni",
+    "direccion": "Luis Vernet 2147, Córdoba, Argentina",
+    "email": "silcentioni@hotmail.com",
+    "contraseña": "mipass456"
+  },
+  {
+    "id_usuario": 7,
+    "nombre": "Ricardo",
+    "apellido": "Pelliza",
+    "direccion": "Viamonte 825, Córdoba, Argentina",
+    "email": "ricardopelliza@gmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 8,
+    "nombre": "Federico",
+    "apellido": "Cagliero",
+    "direccion": "Diego 333, Córdoba, Argentina",
+    "email": "fcagliero@hotmail.com",
+    "contraseña": "clave123"
+  },
+  {
+    "id_usuario": 9,
+    "nombre": "Adrian",
+    "apellido": "Heredia",
+    "direccion": "Almirante Brown 975, Córdoba, Argentina",
+    "email": "adrian.heredia@live.com",
+    "contraseña": "heredia123"
+  },
+  {
+    "id_usuario": 10,
+    "nombre": "Federico",
+    "apellido": "Gonzalez",
+    "direccion": "Av. Colon 890, Córdoba, Argentina",
+    "email": "federicogonzalez@hotmail.com.ar",
+    "contraseña": "federico123"
+  },
+  {
+    "id_usuario": 11,
+    "nombre": "Francisco",
+    "apellido": "Gonzalez",
+    "direccion": "Av. Colon 890, Córdoba, Argentina",
+    "email": "franciscogonzalez@hotmail.com.ar",
+    "contraseña": "federico123"
+  },
+  {
+    "id_usuario": 12,
+    "nombre": "Lucía",
+    "apellido": "Martínez",
+    "direccion": "Calle San Martín 1020, Rosario, Argentina",
+    "email": "luciamartinez@gmail.com",
+    "contraseña": "lucia2021"
+  },
+  {
+    "id_usuario": 13,
+    "nombre": "Carlos",
+    "apellido": "Pérez",
+    "direccion": "Av. Rivadavia 4500, Buenos Aires, Argentina",
+    "email": "carlosperez@yahoo.com",
+    "contraseña": "carlosp456"
+  },
+  {
+    "id_usuario": 14,
+    "nombre": "María",
+    "apellido": "López",
+    "direccion": "Calle Belgrano 980, Mendoza, Argentina",
+    "email": "marialopez@hotmail.com",
+    "contraseña": "maria789"
+  },
+  {
+    "id_usuario": 15,
+    "nombre": "Juan",
+    "apellido": "Ramírez",
+    "direccion": "Calle Florida 123, Buenos Aires, Argentina",
+    "email": "juanramirez@gmail.com",
+    "contraseña": "juan1234"
+  },
+  {
+    "id_usuario": 16,
+    "nombre": "Ana",
+    "apellido": "Gutiérrez",
+    "direccion": "Av. Mitre 500, La Plata, Argentina",
+    "email": "anagutierrez@hotmail.com",
+    "contraseña": "ana5678"
+  },
+  {
+    "id_usuario": 17,
+    "nombre": "Miguel",
+    "apellido": "Díaz",
+    "direccion": "Calle Las Heras 720, San Juan, Argentina",
+    "email": "migueldiaz@yahoo.com",
+    "contraseña": "miguel9012"
+  },
+  {
+    "id_usuario": 18,
+    "nombre": "Laura",
+    "apellido": "Fernández",
+    "direccion": "Av. Sarmiento 1300, Resistencia, Argentina",
+    "email": "laurafernandez@gmail.com",
+    "contraseña": "laura3456"
+  },
+  {
+    "id_usuario": 19,
+    "nombre": "Santiago",
+    "apellido": "Herrera",
+    "direccion": "Calle Moreno 650, Salta, Argentina",
+    "email": "santiagoherrera@hotmail.com",
+    "contraseña": "santiago7890"
+  },
+  {
+    "id_usuario": 20,
+    "nombre": "Valeria",
+    "apellido": "Torres",
+    "direccion": "Av. Pellegrini 300, Tucumán, Argentina",
+    "email": "valeriatorres@yahoo.com",
+    "contraseña": "clave12346"
+  }
+]

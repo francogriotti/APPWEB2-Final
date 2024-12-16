@@ -1,0 +1,162 @@
+[
+  {
+    "id_producto": 1,
+    "categoria": "Microprocesador",
+    "nombre": "MICROPROCESADOR INTEL PENTIUM GOLD G6400 S1200",
+    "desc": "Procesador de doble núcleo con alta eficiencia para tareas básicas.",
+    "precio": 10000,
+    "imagen": "img/products/microprocesadores/Microprocesador01.webp"
+  },
+  {
+    "id_producto": 2,
+    "categoria": "Microprocesador",
+    "nombre": "MICROPROCESADOR AMD RYZEN 3 3200G WRAITH STEALTH ZEN2 AM4",
+    "desc": "Procesador Ryzen de 4 núcleos con gráficos integrados y excelente rendimiento.",
+    "precio": 10000,
+    "imagen": "img/products/microprocesadores/Microprocesador02.webp"
+  },
+  {
+    "id_producto": 3,
+    "categoria": "Microprocesador",
+    "nombre": "MICROPROCESADOR AMD RYZEN 5 5600X 6/12 4.6GHZ S/G ZEN3",
+    "desc": "Procesador de alto rendimiento para gaming y multitarea intensiva.",
+    "precio": 10000,
+    "imagen": "img/products/microprocesadores/Microprocesador03.webp"
+  },
+  {
+    "id_producto": 4,
+    "categoria": "Microprocesador",
+    "nombre": "MICROPROCESADOR AMD RYZEN 5 7600 RAPHAEL ZEN4 AM5",
+    "desc": "Procesador de última generación para entusiastas y creadores de contenido.",
+    "precio": 10000,
+    "imagen": "img/products/microprocesadores/Microprocesador04.webp"
+  },
+  {
+    "id_producto": 5,
+    "categoria": "Microprocesador",
+    "nombre": "MICROPROCESADOR INTEL CORE I5 12600K ALDERLAKE S1700 12VA",
+    "desc": "Procesador Intel Core i5 de 12ª generación para alto rendimiento.",
+    "precio": 10000,
+    "imagen": "img/products/microprocesadores/Microprocesador05.webp"
+  },
+  {
+    "id_producto": 6,
+    "categoria": "Monitores",
+    "nombre": "MONITOR 24 LED SAMSUNG T350 FHD IPS 5MS 75HZ",
+    "desc": "Monitor Full HD de 24 pulgadas con tecnología IPS para colores vivos.",
+    "precio": 10000,
+    "imagen": "img/products/monitores/Monitor01.webp"
+  },
+  {
+    "id_producto": 7,
+    "categoria": "Monitores",
+    "nombre": "MONITOR 27 E-VIEW 271AXA VGA/HDMI FHD 60HZ",
+    "desc": "Monitor de 27 pulgadas con entrada VGA y HDMI para uso versátil.",
+    "precio": 10000,
+    "imagen": "img/products/monitores/Monitor02.webp"
+  },
+  {
+    "id_producto": 8,
+    "categoria": "Monitores",
+    "nombre": "MONITOR 27 REDRAGON MIRROR JADE FHD 1MS 165HZ",
+    "desc": "Monitor gamer con tiempo de respuesta de 1ms y alta tasa de refresco.",
+    "precio": 10000,
+    "imagen": "img/products/monitores/Monitor03.webp"
+  },
+  {
+    "id_producto": 9,
+    "categoria": "Monitores",
+    "nombre": "MONITOR 26 LG LED 26WQ500-B ULTRAWIDE 75HZ",
+    "desc": "Monitor ultrawide de 26 pulgadas ideal para multitarea y productividad.",
+    "precio": 10000,
+    "imagen": "img/products/monitores/Monitor04.webp"
+  },
+  {
+    "id_producto": 10,
+    "categoria": "Monitores",
+    "nombre": "MONITOR 24 LG 24GN60R-B IPS FHD 144HZ",
+    "desc": "Monitor de 24 pulgadas con tecnología IPS y alta tasa de refresco.",
+    "precio": 10000,
+    "imagen": "img/products/monitores/Monitor05.webp"
+  },
+  {
+    "id_producto": 11,
+    "categoria": "Notebook",
+    "nombre": "NOTEBOOK AIWA CLOUDBOOK CA141-C INTEL N4020 4GB 128GB 14 W11",
+    "desc": "Notebook ligera y eficiente para tareas diarias y navegación web.",
+    "precio": 10000,
+    "imagen": "img/products/notebooks/Notebook01.webp"
+  },
+  {
+    "id_producto": 12,
+    "categoria": "Notebook",
+    "nombre": "NOTEBOOK BANGHO MAX L5 INTEL CORE I5 1135G7 8GB SSD 240GB 15.6",
+    "desc": "Notebook potente con Intel Core i5 y SSD para un rendimiento óptimo.",
+    "precio": 10000,
+    "imagen": "img/products/notebooks/Notebook02.webp"
+  },
+  {
+    "id_producto": 13,
+    "categoria": "Notebook",
+    "nombre": "NOTEBOOK ASUS X515EA I3 1115G4 4GB SSD 256GB 15.6 FHD",
+    "desc": "Notebook versátil y ligera con pantalla Full HD de 15.6 pulgadas.",
+    "precio": 10000,
+    "imagen": "img/products/notebooks/Notebook03.webp"
+  },
+  {
+    "id_producto": 14,
+    "categoria": "Notebook",
+    "nombre": "NOTEBOOK DELL INSPIRON 3511 I3 1115G4 4GB SSD 256GB 15.6",
+    "desc": "Notebook Dell confiable para el trabajo y el estudio diario.",
+    "precio": 10000,
+    "imagen": "img/products/notebooks/Notebook04.webp"
+  },
+  {
+    "id_producto": 15,
+    "categoria": "Notebook",
+    "nombre": "NOTEBOOK DELL INSPIRON 3525 AMD RYZEN 5 5500U 8GB SSD 256GB 15.6 FHD W11",
+    "desc": "Notebook con procesador AMD Ryzen para un rendimiento excepcional.",
+    "precio": 10000,
+    "imagen": "img/products/notebooks/Notebook05.webp"
+  },
+  {
+    "id_producto": 16,
+    "categoria": "PlacaVideo",
+    "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 3050 VENTUS 2X OC 8GB GDDR6",
+    "desc": "Rendimiento ideal para juegos a 1080p con 8GB GDDR6 y Ray Tracing.",
+    "precio": 10000,
+    "imagen": "img/products/placas de video/PlacaVideo01.webp"
+  },
+  {
+    "id_producto": 17,
+    "categoria": "PlacaVideo",
+    "nombre": "PLACA DE VIDEO POWERCOLOR AMD RADEON RX 6700 XT RED DEVIL 12GB",
+    "desc": "Gran potencia para juegos a 1440p con 12GB GDDR6 y Ray Tracing.",
+    "precio": 10000,
+    "imagen": "img/products/placas de video/PlacaVideo02.webp"
+  },
+  {
+    "id_producto": 18,
+    "categoria": "PlacaVideo",
+    "nombre": "PLACA DE VIDEO ASUS NVIDIA GEFORCE RTX 3060 TI DUAL OC WHITE LHR",
+    "desc": "Estilo único en blanco, excelente para 1440p con 8GB GDDR6.",
+    "precio": 10000,
+    "imagen": "img/products/placas de video/PlacaVideo03.webp"
+  },
+  {
+    "id_producto": 19,
+    "categoria": "PlacaVideo",
+    "nombre": "PLACA DE VIDEO ASUS ROG STRIX NVIDIA GEFORCE RTX 4070TI 12GB GAMING GDDR6X",
+    "desc": "Potente para 4K con 12GB GDDR6X y enfriamiento avanzado.",
+    "precio": 10000,
+    "imagen": "img/products/placas de video/PlacaVideo04.webp"
+  },
+  {
+    "id_producto": 20,
+    "categoria": "PlacaVideo",
+    "nombre": "PLACA DE VIDEO PNY NVIDIA GEFORCE RTX 4080 XLR8 GAMING VERTO EPIC X 16GB GDDR6X",
+    "desc": "Máximo rendimiento en 4K con 16GB GDDR6X y Ray Tracing.",
+    "precio": 10000,
+    "imagen": "img/products/placas de video/PlacaVideo05.webp"
+  }
+]

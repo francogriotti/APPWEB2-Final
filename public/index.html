@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoShop - Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#522E74',
+                        gold: '#FFD700',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-br from-blue-900 via-purple-900 to-black min-h-screen flex items-center justify-center">
+    <div class="bg-black bg-opacity-50 p-8 rounded-lg shadow-md w-96 border-4 border-black">
+        <div class="mb-6 text-center">
+            <img src="./img/others/logo.webp" alt="logo" class="mx-auto w-55 h-45">
+        </div>
+        <form id="loginForm" class="block">
+            <div class="mb-4">
+                <label for="email" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Correo electrónico
+                </label>
+                <input type="email" id="email"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Contraseña
+                </label>
+                <input type="password" id="password"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <button type="submit"
+                class="block text-center text-white font-bold text-sm transition-all duration-300 ease-in-out border-2 border-white bg-transparent hover:bg-gray-400 px-6 py-2 rounded mx-auto">
+                Iniciar sesión
+            </button>
+            <div class="mt-2 text-center">
+                <button id="showRegisterForm" type="button"
+                    class="text-white text-sm font-medium hover:text-gray-300 transition duration-300 font-bold">
+                    Registrarse
+                </button>
+            </div>
+            <div class="mt-4 flex justify-center space-x-4">
+                <button
+                    class="bg-white hover:bg-gray-300 text-white p-2 rounded-full transition duration-300 shadow-md">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook"
+                        class="w-6 h-6">
+                </button>
+                <button
+                    class="bg-white hover:bg-gray-300 text-white p-2 rounded-full transition duration-300 shadow-md">
+                    <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="w-6 h-6">
+                </button>
+            </div>
+        </form>
+        <form id="registerForm" class="hidden">
+            <div class="mb-2">
+                <label for="newName" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Nombre
+                </label>
+                <input type="text" id="newName"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <div class="mb-2">
+                <label for="newLastName" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Apellido
+                </label>
+                <input type="text" id="newLastName"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <div class="mb-2">
+                <label for="newAddress" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Dirección
+                </label>
+                <input type="text" id="newAddress"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <div class="mb-2">
+                <label for="newEmail" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Correo electrónico
+                </label>
+                <input type="email" id="newEmail"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <div class="mb-6">
+                <label for="newPassword" class="block mb-2 text-sm font-medium text-white italic font-bold">
+                    Contraseña
+                </label>
+                <input type="password" id="newPassword"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-black bg-opacity-50 text-white"
+                    required>
+            </div>
+            <button type="submit"
+                class="block text-center text-white font-bold text-sm transition-all duration-300 ease-in-out border-2 border-white bg-transparent hover:bg-gray-400 px-6 py-2 rounded mx-auto">
+                Registrarse
+            </button>
+            <div class="mt-4 text-center">
+                <button id="showLoginForm" type="button"
+                    class="flex items-center justify-center text-white text-sm font-bold hover:text-gray-300 transition duration-300 mx-auto"><span
+                        class="mr-2">&larr;</span>
+                    Volver
+                </button>
+            </div>
+        </form>
+    </div>
+    <div id="errorModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-50">
+        <div class="bg-white rounded-lg shadow-lg p-6 w-80">
+            <h2 class="text-lg font-bold mb-4 text-red-600 uppercase text-center">ERROR</h2>
+            <p id="modalErrorMessage" class="text-gray-800 mb-4"></p>
+            <button id="closeModal"
+                class="block w-full text-center bg-red-500 text-white py-2 rounded hover:bg-red-600 transition">
+                Cerrar
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="./script/main.js"></script>
+</body>
+
+</html>
